@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <button onclick="
+      playGame('heads');
+    ">heads</button>
+
+    <button onclick="
+      playGame('tails');
+    ">tails</button>
+
+    <script>
+      function playGame(guess) {
+        const randomNumber = Math.random();
+        const result = randomNumber < 0.5 ? 'heads' : 'tails';
+
+        console.log(guess === result ? 'You win!' : 'You lose!');
+      }
+    </script>
+  </body>
+</html>
+
+/*
+Key Concepts
+
+Math.random() — generates a random decimal from 0 (inclusive) to 1 (exclusive), evenly distributed
+Ternary operator condition ? a : b — a compact one-line if/else that returns a value
+50/50 split — dividing the 0–1 range at 0.5 gives equal probability to both outcomes
+=== strict equality — checks both value and type; 'heads' === 'heads' is true, 'heads' === 'tails' is false
+Chained ternaries — one ternary picks the result, another picks the message; each is independent and readable
+*/
