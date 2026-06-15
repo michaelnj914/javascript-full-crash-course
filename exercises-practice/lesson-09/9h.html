@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <input placeholder="Type something" class="js-input"
+      onkeyup="
+        const inputElement = document.querySelector('.js-input');
+        document.querySelector('.js-message')
+          .innerHTML = inputElement.value;
+      ">
+
+    <p class="js-message"></p>
+  </body>
+</html>
+
+/*
+This is called live updating because the paragraph updates 
+instantly every time the user presses and releases a key.
+*/

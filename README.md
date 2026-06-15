@@ -125,3 +125,14 @@ I am learning modern web development to become a full-stack developer and build 
 3. Built-in objects: `JSON`, `localStorage`
 4. More details: `null`, auto-boxing, references
 5. Shortcuts: destructuring, shorthand property, shorthand methods
+
+
+
+
+ ### Document Object Model (DOM)
+ 1. Document Object Model (DOM)
+ 2. document.querySelector(..)
+ 3. innerHTML
+ 4. 3 projects using the DOM
+ 5. onkeydown="..."
+ 6. More details about strings + window object

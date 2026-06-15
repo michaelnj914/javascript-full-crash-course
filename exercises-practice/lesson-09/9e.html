@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    
+    <input placeholder="Name" class="js-name-input"
+      onkeydown="
+        if (event.key === 'Enter') {
+          showName();
+        }">
+
+    <button onclick="showName()">Submit</button>
+
+    <p class="js-message"></p>
+
+
+
+
+    <script>
+
+      function showName() {
+        const inputElement = document.querySelector('.js-name-input');
+        document.querySelector('.js-message')
+          .innerHTML = `Your name is: ${inputElement.value}`;
+      }
+
+    </script>
+
+  </body>
+</html>
+
+/*
+Full Flow in one line
+
+User types → clicks button OR presses Enter → JS reads input → 
+JS updates paragraph → UI changes instantly
+Click event
+Keyboard event
+Same output function
+*/

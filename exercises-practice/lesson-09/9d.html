@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+
+
+    <input placeholder="Name" class="js-name-input">
+
+    <button onclick="
+    const inputelement = document.querySelector('.js-name-input');
+    document.querySelector('.js-message')
+    .innerHTML = `Your name is: ${inputelement.value}`;
+    
+    ">Submit</button>
+
+    <!-- <input placeholder="Name" class="js-name-input">
+
+    <button onclick="
+      const inputElement = document.querySelector('.js-name-input');
+      document.querySelector('.js-message')
+        .innerHTML = `Your name is: ${inputElement.value}`;
+    ">Submit</button> -->
+
+    <p class="js-message"></p>
+  </body>
+</html>
+
+
+
+/*
+Full Workflow Summary
+Page loads → nothing displayed in paragraph
+User types name → stored in input field
+User clicks button → onclick runs
+JS finds input element
+JS reads .value
+JS finds message paragraph
+JS updates .innerHTML
+Page updates instantly (no reload)
+*/
