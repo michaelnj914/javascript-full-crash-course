@@ -15,12 +15,14 @@ I use this repository to practice lessons, build mini projects, and track my pro
 ✅ 06 - Booleans
 ✅ 07 - Functions
 ✅ 08 - Objects
+✅ 09 - Document Object Model (DOM)
+✅ 10 - HTML, CSS, and JavaScript Together
 
 ---
 
 ## Current Progress
 
-🔄 DOM (Coming Next)
+🔄 Arrays and Loops (Coming Next)
 
 ---
 
@@ -136,3 +138,10 @@ I am learning modern web development to become a full-stack developer and build 
  4. 3 projects using the DOM
  5. onkeydown="..."
  6. More details about strings + window object
+
+
+ ### HTML, CSS, and JavaScript Together
+1. Reviewed CSS, and added CSS to projects
+2. .classList
+3. Finished Rock Paper Scissors
+4. Organize JavaScript and CSS code into separate files
