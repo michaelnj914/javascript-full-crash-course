@@ -17,19 +17,21 @@ I use this repository to practice lessons, build mini projects, and track my pro
 ✅ 08 - Objects
 ✅ 09 - Document Object Model (DOM)
 ✅ 10 - HTML, CSS, and JavaScript Together
+✅ 11 - Arrays and Loops
 
 ---
 
 ## Current Progress
 
-🔄 Arrays and Loops (Coming Next)
+🔄 (Part 2) Arrays and Loops (Coming Next)
 
 ---
 
-## Projects
+## Lessons/Projects
 
 * Rock Paper Scissors
 * Cart Quantity
+* TodoList
 * More projects coming...
 
 ---
@@ -145,3 +147,7 @@ I am learning modern web development to become a full-stack developer and build 
 2. .classList
 3. Finished Rock Paper Scissors
 4. Organize JavaScript and CSS code into separate files
+
+
+ ### Array and Loops
+ 1. ........
