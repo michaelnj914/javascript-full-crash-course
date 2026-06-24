@@ -17,13 +17,13 @@ I use this repository to practice lessons, build mini projects, and track my pro
 ✅ 08 - Objects
 ✅ 09 - Document Object Model (DOM)
 ✅ 10 - HTML, CSS, and JavaScript Together
-✅ 11 - Arrays and Loops
-
+✅ 11 - Arrays and Loops &  (Part 2) Arrays and Loops
+✅ 12 - Advanced Functions & (Part 2) Advanced Functions
 ---
 
 ## Current Progress
 
-🔄 (Part 2) Arrays and Loops (Coming Next)
+🔄 Intro to Backend, Callbacks, Async Await (Coming Next)
 
 ---
 
@@ -150,4 +150,19 @@ I am learning modern web development to become a full-stack developer and build 
 
 
  ### Array and Loops
- 1. ........
+ 1. Arrays = list of values
+ 2. Loops (while loop, for loop)
+ 3. Accumulator Pattern
+ 4. Created a Todo List project
+ 5. Arrays are references, destructuring
+ 6. More features of loops:
+    break, continue, loops inside a funtion
+
+
+###  Advanced Functions
+1. Function are values
+2. setTimeout(), setInterva(), which let us run funciton in the future
+3. .forEach(): which is a cleaner way of looping through an array
+4. Arrow functions, addEventListener() to improve the projects
+5. (Array methods)  .filter(), .map() 
+6. closures 
